@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"os"
 
@@ -38,7 +37,6 @@ func main() {
 	}
 
 	//  Get the local kube config with context override.
-	fmt.Printf("Connecting to Kubernetes Context %v\n", q.Context)
 	config, err := clientcmd.NewNonInteractiveDeferredLoadingClientConfig(
 		clientcmd.NewDefaultClientConfigLoadingRules(),
 		&clientcmd.ConfigOverrides{CurrentContext: q.Context}).ClientConfig()

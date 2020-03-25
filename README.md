@@ -32,6 +32,8 @@ module "rds-postgres-password" {
 
 and load the module using `terraform get`.
 
+The binary won't fail if you don't pass the context but terraform will.
+
 ### Module Variables
 
 Available variables are listed below, along with their default values:
