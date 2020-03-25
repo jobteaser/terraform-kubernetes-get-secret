@@ -21,12 +21,12 @@ Add the module to your Terraform resources:
 
 ```hcl
 module "rds-postgres-password" {
-  source    = "github.com/gearnode/terraform-kubernetes-get-secret?ref=v0.3.0"
+  source = "github.com/jobteaser/terraform-kubernetes-get-secret?ref=v0.3.0"
 
   namespace = "default"
-  name = "terraform"
-  key = "database-password"
-  context = "supercontext"
+  name      = "terraform"
+  key       = "database-password"
+  context   = "k8s-context"
 }
 ```
 
@@ -69,7 +69,6 @@ $ make
 
 ## Maintainers
 
-This module is currently maintained by the individuals listed below.
+This module is a fork of [gearnode/terraform-kubernetes-get-secret](https://github.com/gearnode/terraform-kubernetes-get-secret).
 
-- [Bryan Frimin](https://github.com/gearnode)
-- [Ludovic Vielle](https://github.com/lukkor)
+We should open issues on the base repository if changes are needed.
