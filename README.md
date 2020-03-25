@@ -70,9 +70,6 @@ $ make
 
 ## Maintainers
 
-This module is currently a fork maintained by the individuals listed below.
-
-- [Bryan Frimin](https://github.com/gearnode)
-- [Ludovic Vielle](https://github.com/lukkor)
+This module is a fork of [gearnode/terraform-kubernetes-get-secret](https://github.com/gearnode/terraform-kubernetes-get-secret).
 
 
