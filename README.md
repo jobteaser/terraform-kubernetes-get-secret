@@ -70,5 +70,3 @@ $ make
 ## Maintainers
 
 This module is a fork of [gearnode/terraform-kubernetes-get-secret](https://github.com/gearnode/terraform-kubernetes-get-secret).
-
-We should open issues on the base repository if changes are needed.
